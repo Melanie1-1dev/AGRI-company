@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Agriculture Techniques</title>
+
+    <link rel="stylesheet" href="style.css">
+   <style>
+/* GOLDEN BUZZER music */
+.rain-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Each buzzer drop */
+.rain-container .buzzer {
+  position: absolute;
+  top: -50px;
+  font-size: 20px;
+  color: gold;
+  opacity: 0.8;
+  animation: fall linear infinite;
+}
+
+/* Falling animation */
+@keyframes fall {
+  0% { transform: translateY(-50px) rotate(0deg); opacity: 0; }
+  10% { opacity: 1; }
+  100% { transform: translateY(110vh) rotate(360deg); opacity: 0; }
+}
+
+/* Assign random positions, delays, and durations */
+.rain-container .buzzer:nth-child(1) { left: 5%; animation-duration: 5s; animation-delay: 0s; font-size: 20px; }
+.rain-container .buzzer:nth-child(2) { left: 15%; animation-duration: 6s; animation-delay: 1s; font-size: 22px; }
+.rain-container .buzzer:nth-child(3) { left: 25%; animation-duration: 7s; animation-delay: 2s; font-size: 18px; }
+.rain-container .buzzer:nth-child(4) { left: 35%; animation-duration: 5.5s; animation-delay: 1.5s; font-size: 24px; }
+.rain-container .buzzer:nth-child(5) { left: 45%; animation-duration: 6.2s; animation-delay: 2.5s; font-size: 20px; }
+.rain-container .buzzer:nth-child(6) { left: 55%; animation-duration: 5.8s; animation-delay: 0.5s; font-size: 22px; }
+.rain-container .buzzer:nth-child(7) { left: 65%; animation-duration: 6.5s; animation-delay: 3s; font-size: 19px; }
+.rain-container .buzzer:nth-child(8) { left: 75%; animation-duration: 7.2s; animation-delay: 4s; font-size: 21px; }
+.rain-container .buzzer:nth-child(9) { left: 85%; animation-duration: 5.3s; animation-delay: 2s; font-size: 23px; }
+.rain-container .buzzer:nth-child(10){ left: 95%; animation-duration: 6.7s; animation-delay: 3.5s; font-size: 20px; }
+</style>
+
+</head>
+<body>
+    <div class="rain-container">
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+  <span class="buzzer">🎵</span>
+    <!-- Navigation -->
+    <nav>
+        <h1>SMART AGRICULTURAL TECHNIQUES LTD</h1>
+        <div>
+            <a href="#HOME">HOME</a>
+            <a href="#ABOUT">ABOUT</a>
+            <a href="#MORE">MORE</a>
+            <a href="#Information">Information</a>
+            <a href="#Output">Output</a>
+        </div>
+    </nav>
+    
+    <!-- HOME section -->
+    <section id="HOME">
+        <h2>Techniques Used in Europe</h2>
+        <p>European agriculture uses techniques ranging from traditional methods like the three-field system to modern precision agriculture. Modern practices emphasize sustainability and efficiency through technologies like GPS, sensors, and robotics, while also focusing on organic methods such as cover crops, conservation tillage, and intercropping to improve soil health and reduce chemical use.</p>
+        <div class="image-gallery">
+            <img src="https://i.ytimg.com/vi/6fCwIfPEeTs/hq720.jpg" alt="agricultural machine">
+            <img src="https://www.greencitytimes.com/wp-content/uploads/2025/04/shutterstock-2256437237-scaled.jpg" alt="modern farming">
+            <img src="https://i.pinimg.com/1200x/f4/58/0c/f4580cceb8889a3b6fd97f6b9a4a7a38.jpg" alt="precision agriculture">
+            <img src="https://i.pinimg.com/1200x/e7/8b/16/e78b16a40e62dfc38235c4c7018bb1cf.jpg" alt="farming equipment">
+        </div>
+        <p id="demo">Timeline</p>
+        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Click to Display Date and Time</button>
+    </section>
+    
+    <!-- ABOUT section -->
+    <section id="ABOUT">
+        <h2>HOW TO APPLY THESE TECHNIQUES</h2>
+        <p>To apply modern techniques in agriculture, farmers can focus on precision farming, sustainable practices, and controlled-environment agriculture. These techniques use technology and data to optimize resource use, improve efficiency, and enhance environmental stewardship.</p>
+        
+        <h3>Key Agricultural Processes</h3>
+        <ul>
+            <li><b>Soil preparation:</b> This involves loosening the soil through practices like ploughing, and then levelling it to create a good seedbed.</li>
+            <li><b>Sowing:</b> High-quality seeds are selected and sown into the prepared soil, either by hand or with a machine.</li>
+            <li><b>Adding manure and fertilizers:</b> Nutrients are added to the soil to help the plants grow strong, using either natural manure or chemical fertilizers.</li>
+            <li><b>Irrigation:</b> Crops are provided with a controlled supply of water from sources like wells, rivers, or dams.</li>
+            <li><b>Crop protection:</b> This includes removing unwanted weeds that compete with crops for resources and controlling pests and diseases.</li>
+            <li><b>Harvesting:</b> Once the crops are mature, they are gathered from the field.</li>
+            <li><b>Storage:</b> The harvested produce is stored in a suitable environment to prevent spoilage and infestation until it is used or sold.</li>
+        </ul>
+        <div class="image-gallery">
+            <img src="https://cdn-cms.orchidsinternationalschool.com/media/branches-of-agriculture.jpg" alt="agriculture branches">
+            <img src="https://i.pinimg.com/1200x/ea/7a/c7/ea7ac791d6c8fb5fe3102933159eae39.jpg" alt="mixed farming">
+        </div>
+    </section>
+    
+    <!-- MORE section -->
+    <section id="MORE">
+        <h2>Agriculture Techniques Explained</h2>
+        <p>The following video demonstrates modern agricultural technology:</p>
+        
+        <iframe class="ytvideo" width="752" height="432" src="https://www.youtube.com/embed/qgWd0tdgG80" title="Revolutionizing Farming" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <h3>Soil Management</h3>
+        <ul>
+            <li><b>Crop rotation:</b> Planting different crops in the same field in a planned sequence to improve soil fertility and prevent pests.</li>
+            <li><b>No-till and conservation tillage:</b> Minimizing soil disturbance by planting crops without plowing, which helps preserve soil structure and reduce erosion.</li>
+            <li>Adding organic matter to the soil to improve its health and fertility.</li>
+        </ul>
+        
+        <h3>Water Management</h3>
+        <ul>
+            <li><i>Drip irrigation:</i> Delivering water directly to the roots of plants, which saves water and reduces evaporation.</li>
+            <li><i>Hydroponics:</i> Growing plants in a nutrient-rich water solution instead of soil.</li>
+            <li><i>Aquaponics:</i> A system that combines raising fish (aquaculture) with hydroponics, where the fish waste fertilizes the plants.</li>
+        </ul>
+        
+        <h3>Pest and Weed Control</h3>
+        <ul>
+            <li><b>Integrated Pest Management (IPM):</b> A strategy that uses a combination of methods, including biological controls and targeted chemical applications, to manage pests in an environmentally friendly way.</li>
+            <li><b>Organic farming:</b> A system that avoids synthetic pesticides, herbicides, and fertilizers, relying on natural and organic inputs.</li>
+        </ul>
+        
+        <div class="image-gallery">
+            <img src="https://i.pinimg.com/1200x/d2/31/3b/d2313bf47264e5aad16515bc9070ef32.jpg" alt="modern farming">
+            <img src="https://img.jagranjosh.com/imported/images/E/GK/modern-agriculture-impact-on-environment-gk.webp" alt="agriculture impact">
+            <img src="https://i.pinimg.com/736x/50/97/5d/50975d3cc9c5ca79bfd3408cd0b1032e.jpg" alt="farming machine">
+            <img src="https://agtech.folio3.com/wp-content/uploads/2024/08/organic.jpg" alt="organic farming">
+            <img src="https://www.worldatlas.com/r/w1200/upload/e5/01/c0/shutterstock-209487340.jpg" alt="agriculture">
+            <img src="https://i.pinimg.com/736x/58/da/34/58da3435a29add669dde040154c86e45.jpg" alt="farming technology">
+        </div>
+    </section>
+    
+    <!-- Information section -->
+    <section id="Information">
+        <h2>Quotes Related to Farmers</h2>
+        <div class="quote-section">
+            <iframe src="https://i.pinimg.com/736x/40/98/94/4098947eecf97948f827d8a938559b09.jpg" style="border: 5px double orange" height="200" width="300" title="Farming Quote 1"></iframe>
+            <iframe src="https://i.pinimg.com/1200x/5f/90/d1/5f90d1dbca3aaf47fd409b9ebb708acc.jpg" style="border: 5px double orange" height="200" width="300" title="Farming Quote 2"></iframe>
+        </div>
+        
+        <h2>Join Our Community</h2>
+        
+        <form action="#" method="GET">
+            <div class="Container">
+                <p>LOGIN</p>
+                <div class="input-box">
+                    <input type="text" name="Username" id="username" placeholder="Username" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" name="Password" id="Passwd" placeholder="Password" required>
+                </div>
+                <div class="input-box">
+                    <input type="tel" name="Contact" id="contact" placeholder="Contact Number">
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox" name="RememberMe" value="Remember"> Remember Me
+                    </label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="register-link">
+                    <p>Don't have an account? <a href="#">Register</a></p>
+                </div>
+            </div>
+        </form>
+    </section>
+    
+    <!-- Output section -->
+    <section id="Output">
+        <h2>Benefits of Modern Agriculture Techniques</h2>
+        
+        <h3>1. Increased Crop Yields</h3>
+        <p>Improved techniques (irrigation, fertilizers, good seeds, soil testing) help farmers produce more crops per hectare, increasing total harvest and income.</p>
+        
+        <h3>2. Higher Quality Produce</h3>
+        <p>Practices like integrated pest management, proper spacing, and good post-harvest handling lead to better-quality crops, which sell at higher prices.</p>
+        
+        <h3>3. Reduced Production Costs</h3>
+        <p>Efficient methods—like drip irrigation or precision farming—reduce water, fertilizer, and labor costs, increasing net profit.</p>
+        
+        <h3>4. Better Resistance to Pests & Diseases</h3>
+        <p>Techniques such as crop rotation, improved seed varieties, and biological pest control reduce losses from pests, protecting farmers' income.</p>
+        
+        <h3>5. Sustainable Soil Fertility</h3>
+        <p>Practices like mulching, composting, and cover cropping improve soil health, leading to long-term productivity and reducing the need for expensive inputs.</p>
+        
+        <h3>6. Access to Better Markets</h3>
+        <p>Using improved techniques (grading, sorting, proper packaging) allows farmers to meet market standards, giving them access to:</p>
+        <ul>
+            <li>Supermarkets</li>
+            <li>Exporters</li>
+            <li>Agro-processing companies</li>
+            <li>Premium buyers</li>
+        </ul>
+        <p>This increases selling prices.</p>
+        
+        <h3>7. Reduced Post-Harvest Losses</h3>
+        <p>Proper storage, drying, and handling techniques reduce spoilage, meaning more of the harvest becomes sellable.</p>
+        
+        <p><a href="https://www.minagri.gov.rw" target="_blank" style="color: orchid; font-weight: bold; border: 2px solid cornflowerblue; border-radius: 30px;">Visit Rwanda Agriculture Board</a></p>
+        
+        <figure>
+            <div class="image-gallery">
+                <img src="https://www.vegtechnetafim.com/cdn-cgi/image/format=auto,fit=crop,quality=80,width=750/globalassets/vegtech/assets/images/greenhouse-cucumbers-use-smart-tools.jpg" alt="smart greenhouse">
+                <img src="https://i.ytimg.com/vi/_vzIcru0uAU/maxresdefault.jpg" alt="harvest technology">
+                <img src="https://i.ytimg.com/vi/bOuHN1W4mqE/maxresdefault.jpg" alt="modern harvest">
+                <img src="https://i.pinimg.com/736x/48/f7/05/48f705673c29e97b8b5fd0e23cbcdb1a.jpg" alt="irrigation system">
+            </div>
+            <figcaption>Smart irrigation systems significantly benefit both crop yield and harvesting time/management by optimizing water usage and promoting healthier plant growth.</figcaption>
+        </figure>
+        
+        <h3>Agricultural Products Data</h3>
+        <table>
+            <tr>
+                <th colspan="5">Agricultural Products Export Values</th>
+            </tr>
+            <tr>
+                <th rowspan="2">No.</th>
+                <th rowspan="2">Country</th>
+                <th colspan="3">Value: million US$</th>
+            </tr>
+            <tr>
+                <th>2008</th>
+                <th>2009</th>
+                <th>2010</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>CHINA</td>
+                <td>2,727.05</td>
+                <td>2,879.93</td>
+                <td>4,188.37</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>JAPAN</td>
+                <td>2,894.51</td>
+                <td>2,301.94</td>
+                <td>43,244.90</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>USA</td>
+                <td>1,825.81</td>
+                <td>1,520.24</td>
+                <td>2,031.86</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>MALAYSIA</td>
+                <td>1,695.81</td>
+                <td>—</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>S.KOREA</td>
+                <td>734.00</td>
+                <td>419.74</td>
+                <td>763.42</td>
+            </tr>
+        </table>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-down">
+                <h2>About Our Company</h2>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">information</a>
+
+            </div>
+            <div class="footer-down">
+                <h1>Departments involved</h1>
+                <a href="#">Accounting</a>
+                <a href="#">Financial</a>
+                <a href="#">Insecticides</a>
+                               
+            </div>
+            <div class="footer-down">
+              <h1>People Involved</h1>
+              <a href="#">Melanie.N</a>
+              
+              <a href="#">MIZERO Anitha</a>
+              
+              <a href="#">Berwa Sonia</a>
+              
+              <a href="#">UWIMANA Justice</a>
+             <a href="#">Kellen Ange</a>
+            </div>
+          
+            <div class="footer-down">
+                <h1>Roles-Held</h1>
+                <a href="#">Company's Ceo</a>
+                 <a href="#">Company Man.Director</a>
+                <a href="#">Accountant</a>
+                <a href="#">Employee</a>
+                <a href="#">Employee</a>
+            </div>
+            <div class="footer-down">
+                <h1> Contacts</h1>
+                <a href="#">+250725881801</a>
+                <a href="#">+250784675296</a>
+                <a href="#">+250797536274</a>
+                <a href="#">+250786462515</a>
+                <a href="#">+250786532167</a>
+                
+            </div>
+    
+        </div>
+            <div><hr></div>
+         <p class="footer-bottom">&copy;WELCOME TO OUR AGRICULTURAL COMPANY ltd.|| All rights are reserved.👌💯</p>
+    </footer>
+    </div>
+</body>
+</html>
