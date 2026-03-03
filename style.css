@@ -35,7 +35,7 @@
             transition: .8S;
             font-family: Georgia, 'Times New Roman', Times, serif;
             position: relative;
-            animation: moveRight 0.9s ease-in-out;
+            animation: moveRight 3s infinite alternate;
 
         }
         nav h1:hover{
