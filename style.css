@@ -53,6 +53,10 @@
             to {opacity: 1;
             transform: translateY(10px);}
         }
+        @keyframes FadeInDown{
+            from {opacity: 0.2; transform: translateX(20px);}
+            to{opacity: 1; transform: translateZ(20px);transition: .5s ease-in-out;}
+        }
         
         nav a {
             color: white;
@@ -86,6 +90,7 @@
             color: #0b872c;
             text-indent: 20px 40px;
             text-shadow: 3px 2px 5px rgba(0,0,0,0.1);
+            animation: FadeInDown 4s ease forwards infinite alternate;
 
         }
         #HOME h2:hover{
