@@ -48,6 +48,11 @@
             to {transform: translateY(40px);}
 
         } 
+        @keyframes FadeInUp{
+            from {opacity: 0.2;}
+            to {opacity: 1;
+            transform: translateY(10px);}
+        }
         
         nav a {
             color: white;
@@ -115,11 +120,14 @@
             max-width: 45%;
             object-fit: cover;
             transition: .9s;
+            animation: FadeInUp 5s ease forwards;
+
         }
         .image-gallery img:hover{
             transform: translateY(20px);
             border: 5px solid greenyellow;
             border-radius: 60px;
+            
             
         }
         
