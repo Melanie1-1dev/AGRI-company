@@ -34,6 +34,8 @@
             box-shadow: 1PX 5PX 15PX whitesmoke, 1PX 5PX 15PX whitesmoke;
             transition: .8S;
             font-family: Georgia, 'Times New Roman', Times, serif;
+            position: relative;
+            animation: moveRight 0.9s ease-in-out;
 
         }
         nav h1:hover{
@@ -41,6 +43,11 @@
             background: #096620;
             color: aqua;
         }
+        @keyframes moveRight{
+            from {transform: translateX(0px);}
+            to {transform: translateY(40px);}
+
+        } 
         
         nav a {
             color: white;
