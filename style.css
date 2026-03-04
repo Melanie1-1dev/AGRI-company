@@ -83,7 +83,7 @@
             border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-        #HOME h2{
+        .HOME h2{
             text-align: center;
             text-decoration: none;
             text-decoration-color: #053e14;
@@ -93,7 +93,7 @@
             animation: FadeInDown 4s ease forwards infinite alternate;
 
         }
-        #HOME h2:hover{
+        .HOME h2:hover{
             text-decoration: overline;
             text-decoration-color: #053e14;
             color: aqua;
